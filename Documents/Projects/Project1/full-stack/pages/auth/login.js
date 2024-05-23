@@ -22,13 +22,13 @@ export default function Login() {
         }
     };
 
-    // useEffect(() => {
-    //     if(user){
-    //         route.push("/");
-    //     }else{
-    //         console.log("login");
-    //     }
-    // },[user]);
+    useEffect(() => {
+        if(user){
+            route.push("/");
+        }else{
+            console.log("login");
+        }
+    },[user]);
 
 
 
